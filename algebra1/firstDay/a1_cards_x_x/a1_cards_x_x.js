@@ -8920,7 +8920,7 @@ function myCards_536871112() {
               F.line = 28;
               var fmtRes_536871286 = [mnewString(0)];
               F.line = 28;
-              fmtRes_536871286[0].push.apply(fmtRes_536871286[0], [83,116,97,116,105,111,110,32]);;
+              fmtRes_536871286[0].push.apply(fmtRes_536871286[0], [32,83,116,97,116,105,111,110,32]);;
               F.line = 28;
               formatValue_1040187595(fmtRes_536871286, 0, i_536871143);
             };
