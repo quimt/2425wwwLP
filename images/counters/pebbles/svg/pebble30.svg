@@ -2,26 +2,19 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg8"
    version="1.1"
    viewBox="0 0 210 210"
    height="210mm"
    width="210mm"
-   sodipodi:docname="pebble30.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2">
     <filter
-       inkscape:label="Organic"
-       inkscape:menu="Textures"
-       inkscape:menu-tooltip="Bulging, knotty, slick 3D surface"
        height="1.3"
        y="-0.15"
        width="1.3"
@@ -64,7 +57,9 @@
          in="result2"
          k1="2"
          operator="arithmetic"
-         id="feComposite3740" />
+         id="feComposite3740"
+         k3="0"
+         k4="0" />
       <feColorMatrix
          values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -0.8 -1 0 3.7 -2.6 "
          in="fbSourceGraphic"
@@ -115,7 +110,9 @@
          operator="arithmetic"
          in2="fbSourceGraphic"
          id="feComposite3758"
-         result="fbSourceGraphic" />
+         result="fbSourceGraphic"
+         k1="0"
+         k4="0" />
       <feColorMatrix
          result="fbSourceGraphicAlpha"
          in="fbSourceGraphic"
@@ -161,7 +158,9 @@
          in="result1"
          k2="1"
          k3="1"
-         result="result92" />
+         result="result92"
+         k1="0"
+         k4="0" />
       <feComposite
          in2="fbSourceGraphicAlpha"
          id="feComposite3936"
@@ -170,10 +169,7 @@
     </filter>
     <filter
        style="color-interpolation-filters:sRGB;"
-       inkscape:label="Rough and Glossy"
        id="filter4007"
-       inkscape:menu="Textures"
-       inkscape:menu-tooltip="Crumpled glossy paper effect which can be used for pictures as for objects"
        x="-0.15"
        width="1.3"
        y="-0.15"
@@ -195,7 +191,10 @@
          k2="1"
          operator="arithmetic"
          result="composite2"
-         id="feComposite3995" />
+         id="feComposite3995"
+         k1="0"
+         k3="0"
+         k4="0" />
       <feColorMatrix
          in="composite2"
          values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 0 "
@@ -276,7 +275,9 @@
          k3="0.7"
          in="result4"
          operator="arithmetic"
-         result="result91" />
+         result="result91"
+         k2="0"
+         k4="0" />
       <feBlend
          in2="result91"
          id="feBlend4178"
@@ -287,7 +288,11 @@
          id="feComposite4180"
          in="fbSourceGraphic"
          result="result2"
-         operator="arithmetic" />
+         operator="arithmetic"
+         k1="0"
+         k2="0"
+         k3="0"
+         k4="0" />
       <feComposite
          in2="fbSourceGraphic"
          id="feComposite4182"
@@ -295,7 +300,9 @@
          result="result4"
          operator="arithmetic"
          k2="2"
-         k3="2" />
+         k3="2"
+         k1="0"
+         k4="0" />
       <feBlend
          in2="result4"
          id="feBlend4184"
@@ -357,7 +364,9 @@
          k3="0.7"
          k1="0.7"
          result="result2"
-         operator="arithmetic" />
+         operator="arithmetic"
+         k2="0"
+         k4="0" />
       <feComposite
          in2="fbSourceGraphicAlpha"
          id="feComposite4206"
@@ -365,7 +374,9 @@
          in="result2"
          operator="arithmetic"
          k1="1"
-         result="result6" />
+         result="result6"
+         k3="0"
+         k4="0" />
       <feBlend
          in2="result6"
          id="feBlend4208"
@@ -416,7 +427,10 @@
          in="result1"
          operator="arithmetic"
          k1="1"
-         result="result2" />
+         result="result2"
+         k2="0"
+         k3="0"
+         k4="0" />
       <feComposite
          in2="result3"
          id="feComposite4273"
@@ -424,7 +438,9 @@
          operator="arithmetic"
          k2="1"
          k3="1"
-         result="result4" />
+         result="result4"
+         k1="0"
+         k4="0" />
       <feComposite
          in2="fbSourceGraphicAlpha"
          id="feComposite4275"
@@ -439,9 +455,6 @@
          xChannelSelector="R" />
     </filter>
     <filter
-       inkscape:menu-tooltip="3D warped, fibered wood texture"
-       inkscape:menu="Materials"
-       inkscape:label="Greyscale"
        height="1.5"
        y="-0.25"
        width="1.5"
@@ -519,7 +532,9 @@
          result="result4"
          in="result9"
          in2="result2"
-         id="feComposite4401" />
+         id="feComposite4401"
+         k1="0"
+         k4="0" />
       <feConvolveMatrix
          order="3 3"
          kernelMatrix="2 0 0 0 2 0 0 0 -2 "
@@ -544,9 +559,6 @@
          in="fbSourceGraphic" />
     </filter>
     <filter
-       inkscape:label="Greyscale"
-       inkscape:menu="Materials"
-       inkscape:menu-tooltip="3D warped, fibered wood texture"
        style="color-interpolation-filters:sRGB;"
        id="filter4605"
        height="1.5"
@@ -600,7 +612,9 @@
          in="result4"
          operator="arithmetic"
          result="result91"
-         id="feComposite4595" />
+         id="feComposite4595"
+         k2="0"
+         k4="0" />
       <feBlend
          result="fbSourceGraphic"
          mode="multiply"
@@ -611,7 +625,11 @@
          in="fbSourceGraphic"
          result="result2"
          operator="arithmetic"
-         id="feComposite4599" />
+         id="feComposite4599"
+         k1="0"
+         k2="0"
+         k3="0"
+         k4="0" />
       <feComposite
          in="result2"
          result="result4"
@@ -619,7 +637,9 @@
          k2="2"
          k3="2"
          in2="fbSourceGraphic"
-         id="feComposite4601" />
+         id="feComposite4601"
+         k1="0"
+         k4="0" />
       <feBlend
          mode="screen"
          in="result4"
@@ -670,7 +690,10 @@
          in="result1"
          operator="arithmetic"
          k1="1"
-         result="result2" />
+         result="result2"
+         k2="0"
+         k3="0"
+         k4="0" />
       <feComposite
          in2="result3"
          id="feComposite4621"
@@ -678,7 +701,9 @@
          operator="arithmetic"
          k2="1"
          k3="1"
-         result="result4" />
+         result="result4"
+         k1="0"
+         k4="0" />
       <feComposite
          in2="fbSourceGraphicAlpha"
          id="feComposite4623"
@@ -770,7 +795,9 @@
          k2="0.5"
          operator="arithmetic"
          result="result4"
-         in="result9" />
+         in="result9"
+         k1="0"
+         k4="0" />
       <feConvolveMatrix
          id="feConvolveMatrix4672"
          order="3 3"
@@ -795,13 +822,10 @@
          in="fbSourceGraphic" />
     </filter>
     <filter
-       inkscape:menu-tooltip="Crumpled glossy paper effect which can be used for pictures as for objects"
-       inkscape:menu="Textures"
-       inkscape:label="Rough and Glossy"
-       height="1.5"
-       y="-0.25"
-       width="1.5"
-       x="-0.25"
+       height="1.2231694"
+       y="-0.11158679"
+       width="1.0823089"
+       x="-0.041155537"
        style="color-interpolation-filters:sRGB;"
        id="filter4855">
       <feGaussianBlur
@@ -875,7 +899,9 @@
          result="result4"
          in="result9"
          in2="result2"
-         id="feComposite4849" />
+         id="feComposite4849"
+         k1="0"
+         k4="0" />
       <feConvolveMatrix
          order="3 3"
          kernelMatrix="2 0 0 0 2 0 0 0 -2 "
@@ -963,7 +989,10 @@
          in="result1"
          operator="arithmetic"
          k1="1"
-         result="result2" />
+         result="result2"
+         k2="0"
+         k3="0"
+         k4="0" />
       <feComposite
          in2="result3"
          id="feComposite5050"
@@ -971,7 +1000,9 @@
          operator="arithmetic"
          k2="1"
          k3="1"
-         result="result4" />
+         result="result4"
+         k1="0"
+         k4="0" />
       <feComposite
          in2="fbSourceGraphicAlpha"
          id="feComposite5052"
@@ -986,24 +1017,6 @@
          xChannelSelector="R" />
     </filter>
   </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="42.255213"
-     inkscape:cy="390.29341"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="1640"
-     inkscape:window-height="986"
-     inkscape:window-x="40"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -1012,26 +1025,15 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-87)">
     <path
        transform="matrix(0.21064764,0.16280697,-0.51212277,0.6626094,136.45433,114.78419)"
        d="M 441.47619,95.538696 A 351.51785,129.64583 0 0 1 93.65469,225.17736 351.51785,129.64583 0 0 1 -261.48178,98.265103 351.51785,129.64583 0 0 1 78.87091,-34.042625 351.51785,129.64583 0 0 1 441.16527,90.087089"
-       sodipodi:open="true"
-       sodipodi:end="6.2411229"
-       sodipodi:start="0"
-       sodipodi:ry="129.64583"
-       sodipodi:rx="351.51785"
-       sodipodi:cy="95.538696"
-       sodipodi:cx="89.958336"
-       sodipodi:type="arc"
        id="path4763"
        style="opacity:1;fill:#1a1a1a;stroke:#000000;stroke-width:0.26458332;filter:url(#filter4855)" />
   </g>

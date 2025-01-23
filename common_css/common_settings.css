@@ -5,7 +5,7 @@
     --ts-font-family-monospace: "Noto Sans Mono", "Courier New", mono;
     --shaded-paper-color: color-mix(in srgb, var(--ts-color-background) 20%, var(--ts-color-border));
     --paper-color: color-mix(in srgb, var(--ts-color-background) 20%, white);
-
+    --color-graphite: #6b6b6b;
 }
 
 .pbr {
@@ -52,7 +52,6 @@
 
 :root {
     --screen-page-height: em;
-    --color-graphite: #6b6b6b;
 }
 
 @media print {
@@ -274,6 +273,16 @@
     text-transform: uppercase;
     letter-spacing:clamp(0em,-1vw,-0.01em);
     font-family: var(--ts-font-family-sans);
+}
+
+.checklist-unchecked {
+  list-style-image: url("../images/objectives/checkbox-unchecked.svg");
+  list-style-position: inside;
+}
+
+.checklist-checked {
+  list-style-image: url("../images/objectives/checkbox-checked.svg");
+  list-style-position: inside;
 }
 
 .tasty {
