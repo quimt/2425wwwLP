@@ -22,5 +22,6 @@
 *sync-conflict*
 **/*slides*/*
 !**/*slides*html
+!**/*slides*js
 #*
 */#*
