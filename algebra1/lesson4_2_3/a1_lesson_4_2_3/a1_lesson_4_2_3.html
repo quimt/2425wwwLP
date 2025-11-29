@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../../common_css/common_settings.css">
     <link rel="stylesheet" href="../css/worksheet.css">
     <script type="text/javascript" id="MathJax-script" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+    src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-svg.js">
     </script>
     <link href="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraph.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraphcore.js" type="text/javascript" charset="UTF-8"></script>
@@ -52,7 +52,9 @@
      preview: "none"
      }
      };
-     </script>
+    var _print = window.print;
+      window.print = function {MathJax.typesetPromise.then(_print());};
+    </script>
 
 
 
