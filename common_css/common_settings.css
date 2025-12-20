@@ -87,6 +87,14 @@ list-style-position: inside; !important
 }
 
 
+.nocopy, :root {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
 .representation, .representation * {
     color: var(--ts-color-heading);
     background-color: var(--ts-color-standout);
