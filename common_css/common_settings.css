@@ -60,6 +60,13 @@ list-style-position: inside; !important
     --screen-page-height: rem;
 }
 
+@media screen{
+  .readable * {
+      font-size: 200%;
+  }
+}
+
+
 @media print {
     @page {
     :root, html {
