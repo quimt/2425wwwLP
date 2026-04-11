@@ -61,7 +61,7 @@ list-style-position: inside; !important
 }
 
 @media screen {
-  .readable * {
+  .readable, .MathJax {
       font-size: 150%;
   }
 }
