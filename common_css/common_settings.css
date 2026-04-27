@@ -62,7 +62,7 @@ list-style-position: inside; !important
 
 @media screen {
   .readable, .MathJax {
-      font-size: 150%;
+      font-size: 140%;
   }
 }
 
@@ -124,7 +124,7 @@ list-style-position: inside; !important
     font-family: 'Inconsolata';
 }
 
-.student {
+.student, .student-1 {
     font-family: 'Caveat', cursive;
     font-size: 200%;
 }
