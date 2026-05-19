@@ -14,11 +14,11 @@
 <script src="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraphcore.js" type="text/javascript" charset="UTF-8"></script>
 <script>
 // Thicken lines, curves, and graphs
-JXG.Options.line.strokeWidth = 4;
-JXG.Options.curve.strokeWidth = 4;
+JXG.Options.line.strokeWidth = 6;
+JXG.Options.curve.strokeWidth = 6;
 
 // Thicken point border
-JXG.Options.point.strokeWidth = 6;
+JXG.Options.point.strokeWidth = 10;
 
 // Increase text size/thickness
 JXG.Options.text.fontSize = 24;
@@ -26,8 +26,12 @@ JXG.Options.text.fontSize = 24;
 JXG.Options.text.cssDefaultStyle = 'font-weight: bold;';
 
 // Thicken Axes
-JXG.Options.axis.strokeWidth = 2;
-JXG.Options.axis.ticks.strokeWidth = 1;
+JXG.Options.axis.strokeWidth = 4;
+JXG.Options.axis.ticks.strokeWidth = 3;
+
+// Set default tick height to 15px for both major and minor
+JXG.Options.axis.ticks.majorHeight = -1;
+JXG.Options.axis.ticks.minorHeight = 40; // Optional: set minor ticks too
 
 </script>
 
